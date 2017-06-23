@@ -1,0 +1,469 @@
+body{
+	margin: 0;
+    padding: 0
+
+}
+
+#header-nav{
+	height: 13vh;
+	margin-bottom: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	border-radius: 0;
+	background: transparent;
+	border: 0;
+	margin-top: 5vh	;
+	transition: all ease-in-out 0.5s;
+
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand a h1{
+	font-family: 'Audiowide', cursive;
+	font-size: 2.5em;	
+	color: red;
+	margin-top: 0;
+	margin-bottom:0;
+	line-height: 0.75; 
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+
+.spot{
+	color: white;
+}
+
+#ham{
+	display: none;
+	position: relative;
+	float: right;
+	margin-top: 4vh;
+	float: right;
+	font-size: 30px;
+	cursor: pointer;
+	color: white;
+}
+
+
+
+
+
+.my-nav li{
+	margin-top: 15px;
+	padding-right: 5vw;
+	display: block;
+}
+
+.my-nav.is-open li{
+	display: none;
+}
+
+#nav-list{
+	border-bottom: 1px solid #737373;
+
+}
+
+#home{
+	padding-left: 5vw;
+}
+
+#nav-list a{
+    font-family: 'Slackey', cursive;
+  
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+	transition: all ease-in-out 0.4s;
+}
+
+#nav-list a:hover{
+	color: #07cb79;
+}
+
+#cta-back{
+	height: 100vh;
+	background: url("images/back2.jpg")no-repeat;
+	background-size: cover;
+
+
+}
+
+#cta{
+	height: 100vh;
+	background: black;
+	opacity: 0.9;
+
+}
+
+#cta-main{
+
+}
+.constant{
+	margin-top: 35vh;
+	color: white;
+	text-align: center;
+	font-size: 5.2em;
+
+}
+
+.typed-cursor{
+  opacity: 0;
+}
+
+.pop{
+	font-family: 'Black Ops One', cursive;
+	color: #07cb79;
+	margin-top: 5vh;
+	text-align: center;
+}
+
+.btn{
+	box-shadow: 0;
+	background: red;
+	border: #07cb79;
+	margin-left: 34vw;
+	margin-top: 5vh;
+	transition: all ease-in-out .25s;
+	color: black;
+	font-weight: 700;
+}
+
+.btn:hover{
+	background-color: #07cb79;
+	color: white;
+}
+
+.knowmore{
+	width: 28px;
+    height: 38px;
+    border-radius: 35%;
+    border: 3px solid white;
+    margin-left: 39vw;
+    margin-top: 10vh;
+}
+
+.move{
+	display: block;
+	width: 4px;
+	height: 6px;
+	background: white;
+	margin-left: 40%;
+	margin-top: 5%;
+	animation: animate 1s linear infinite;
+}
+
+@keyframes animate{
+	0%{
+		margin-top: 25%;
+	}
+
+	25%{
+		margin-top: 50%;
+	}
+
+	50%{
+		margin-top: 75%;
+
+	}
+
+	75%{
+		margin-top: 100%;
+	}
+}
+
+/*#about-me{
+   height: 100vh;    
+}*/
+
+#image-layout{
+	height: 55vh;
+	background: url(images/me.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 15vh;
+	margin-left: -100vw;
+	transition: all 0.75s ease-in-out;
+}
+
+.section-title{
+   margin-top: 15vh;
+   margin-left: 5vw;
+}
+
+.know-about-me{
+	font-weight: 600;
+	font-size: 1.2em;
+	color: white;
+	background: #07cb79;
+	padding: 8px 15px;
+}
+
+.about-h2{
+	font-size: 3em;
+}
+
+.my-contact{
+	float: left;
+	margin-left: 5vw;
+   margin-top: 50px;
+   margin-right: 8px;
+}
+
+.my-contact.contact-icon{
+	float: left;
+	margin-right: 25px;
+
+}
+
+#user{
+
+	font-size: 30px;
+	line-height: 46px;
+}
+
+
+
+.nameh4{
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.contact-info{
+	display: table-cell;
+}
+
+#col{
+	width: 50vw;
+}
+
+
+.about-block{
+	margin-left: 32vw; 
+}
+.about-blockp{
+	font-size: 16px;
+	font-style: italic;
+	line-height: 30px;
+	margin-top: 60px;
+
+}
+
+#bottomp{
+	font-size: 20px;
+	font-style: italic;
+}
+
+	/*#skills-page{
+		height: 100vh;
+	}
+*/
+.skill-title{
+	margin-top: 10vh;
+	margin-left: 5vw;
+}
+
+.skill-title h1{
+	font-size: 3em;
+}
+
+#about-h2{
+	font-size: 3.5em;
+}
+
+.wrapper-web-des{
+	width: 25vw;
+	margin-left: 5vw;
+	margin-top: 13vh;
+	display: inline-block;
+}
+
+.progress-bar-web-des{
+	margin-top: 5vh;
+    width: 100%;
+	background: #666666;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.progress-fill-web-des{
+	height: 22px;
+	display: block;
+	background: #07cb79;
+	border-radius: 3px;
+	width: 0px;
+	transition: width 2500ms ease-in-out;
+}
+
+.wrapper-php{
+	width: 25vw;
+	margin-left: 20vw;
+	margin-top: 13vh;
+	display: inline-block;
+}
+
+.progress-bar-php{
+
+	margin-top: 5vh;
+    width: 100%;
+	background: #666666;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.progress-fill-php{
+	height: 22px;
+	display: block;
+	background: #ff6600;
+	border-radius: 3px;
+	width: 0px;
+	transition: width 2500ms ease-in-out;
+}
+
+
+.wrapper-html-css{
+	width: 25vw;
+	margin-left: 5vw;
+	margin-top: 13vh;
+	display: inline-block;
+}
+.progress-bar-html-css{
+	margin-top: 5vh;
+    width: 100%;
+	background: #666666;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.progress-fill-html-css{
+	height: 22px;
+	display: block;
+	background: #07cb79;
+	border-radius: 3px;
+	width: 0px;
+	transition: width 2500ms ease-in-out;
+}
+
+.wrapper-javascript-jquery{
+	width: 25vw;
+	margin-left: 20vw;
+	margin-top: 13vh;
+	display: inline-block;
+}
+
+.progress-bar-javascript-jquery{
+	margin-top: 5vh;
+    width: 100%;
+	background: #666666;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.progress-fill-javascript-jquery{
+	height: 22px;
+	display: block;
+	background: #07cb79;
+	border-radius: 3px;
+	width: 0px;
+	transition: width 2500ms ease-in-out;
+}
+
+.wrapper-sass{
+	width: 25vw;
+	margin-left: 25vw;
+	margin-top: 13vh;
+	margin-bottom: 10vh;
+}
+
+.wrapper-sass h3{
+	text-align: center;
+}
+
+.progress-bar-sass{
+	margin-top: 5vh;
+    width: 100%;
+	background: #666666;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.progress-fill-sass{
+	height: 22px;
+	display: block;
+	background: #07cb79;
+	border-radius: 3px;
+	width: 0px;
+	transition: width 2500ms ease-in-out;
+}
+
+#contact-page-left{
+	height: 87vh;
+	width: 50vw;
+	float: left;
+	background: white;
+}
+
+.contact-out{
+	margin-top: 2vh;
+	margin-left: 2vw;
+}
+.contact-h2{
+	color: #464e5a;
+	font-style: italic;
+	font-size: 3em;
+}
+
+.contact-layout{
+	margin-top: 10vh;
+	margin-left: 20vw;
+}
+
+::-webkit-input-placeholder{
+     color: white;
+     padding: 1em;
+     
+}
+
+:-ms-input-placeholder{
+     color: white;
+     padding: 1em;
+}
+
+::-moz-placeholder{
+     color: white;
+     padding: 1em;
+}
+
+
+
+.name-holder{
+	border-color: #333;
+	height: 6vh;
+	width: 20vw;
+	display: inline-block;
+	background: transparent;
+}
+
+.email-holder{
+	width: 25vw;
+	margin-left: 5vw;
+}
+
+#contact-form{
+  height: 87vh;
+  
+  background-color: #00ff99;
+}
+
+.contact-text{
+font-family: 'Keania One', cursive;
+font-size: 1.5em;
+}
