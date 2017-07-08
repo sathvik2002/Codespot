@@ -154,13 +154,13 @@ $(function(){
 
   
    $(".typer").typed({
-        strings: [" A WEB DEVELOPER", " A WEB DESIGNER", " SATHVIK HEGDE"],
+        strings: [" A WEB DEVELOPER", " A WEB DESIGNER", " AN ANDROID DEVELOPER"," SATHVIK HEGDE"],
         typeSpeed: 60
       })
 
    setInterval(function(){
       $(".pop").slideDown();
-     },7500)
+     },9800)
    
 
 $(window).scroll(function(event){

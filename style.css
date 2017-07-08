@@ -31,6 +31,15 @@ body{
 	line-height: 0.75; 
 }
 
+@media(max-width: 991px){
+	.navbar-brand a h1{
+		font-size: 2em;
+
+	}
+
+	
+}
+
 .navbar-brand a:hover{
     text-decoration: none;
 }
@@ -60,6 +69,15 @@ body{
 	display: block;
 }
 
+@media(max-width: 991px){
+	.my-nav li{
+		padding-right: 3vw;
+
+	}
+
+	
+}
+
 .my-nav.is-open li{
 	display: none;
 }
@@ -80,6 +98,15 @@ body{
 	color: white;
 	text-align: center;
 	transition: all ease-in-out 0.4s;
+}
+
+@media(max-width: 991px){
+	#nav-list a{
+		font-size: 1em;
+
+	}
+
+	
 }
 
 #nav-list a:hover{
@@ -112,6 +139,15 @@ body{
 
 }
 
+@media(max-width: 991px){
+	.constant{
+		font-size: 4em;
+
+	}
+
+	
+}
+
 .typed-cursor{
   opacity: 0;
 }
@@ -119,8 +155,18 @@ body{
 .pop{
 	font-family: 'Black Ops One', cursive;
 	color: #07cb79;
+	font-size: 1.5em;
 	margin-top: 5vh;
 	text-align: center;
+}
+
+@media(max-width: 991px){
+	.pop{
+		font-size: 1.2em;
+
+	}
+
+	
 }
 
 .btn{
@@ -132,6 +178,51 @@ body{
 	transition: all ease-in-out .25s;
 	color: black;
 	font-weight: 700;
+}
+
+@media(max-width: 1303px){
+	.btn{
+		margin-left: 37vw;
+
+	}
+
+	
+}
+
+@media(max-width: 1200px){
+	.btn{
+		margin-left: 32vw;
+
+	}
+
+	
+}
+
+@media(max-width: 1098px){
+	.btn{
+		margin-left: 35vw;
+
+	}
+
+	
+}
+
+@media(max-width: 992px){
+	.btn{
+		margin-left: 39vw;
+
+	}
+
+	
+}
+
+@media(max-width: 991px){
+	.btn{
+		margin-left: 28vw;
+
+	}
+
+	
 }
 
 .btn:hover{
@@ -148,6 +239,50 @@ body{
     margin-top: 10vh;
 }
 
+@media(max-width: 1303px){
+	.knowmore{
+		margin-left: 42vw;
+
+	}
+}
+
+@media(max-width: 1200px){
+	.knowmore{
+		margin-left: 37vw;
+
+	}
+
+	
+}
+
+@media(max-width: 1200px){
+	.knowmore{
+		margin-left: 40vw;
+
+	}
+
+	
+}
+
+
+@media(max-width: 992px){
+	.knowmore{
+		margin-left: 45vw;
+
+	}
+
+	
+}
+
+@media(max-width: 1200px){
+	.knowmore{
+		margin-left: 34vw;
+
+	}
+
+	
+}
+
 .move{
 	display: block;
 	width: 4px;
@@ -157,6 +292,8 @@ body{
 	margin-top: 5%;
 	animation: animate 1s linear infinite;
 }
+
+
 
 @keyframes animate{
 	0%{
