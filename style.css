@@ -604,3 +604,27 @@ body{
 font-family: 'Keania One', cursive;
 font-size: 1.5em;
 }
+
+#mail{
+	height: 10vh;
+	margin-top: 13vh;
+
+}
+
+#call{
+	height: 10vh;
+	width: 5vw;
+	background: red;
+	margin-top: 5vh;
+}
+
+
+#image-mail{
+		height: 10vh;
+	width: 5vw;
+	background: red;
+}
+
+.mail-text{
+
+}
